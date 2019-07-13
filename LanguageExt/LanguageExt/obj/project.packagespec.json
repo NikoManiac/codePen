@@ -1,0 +1,72 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/Ingram/Documents/Code/Own/Maniac/LanguageExt/LanguageExt/LanguageExt.csproj",
+    "projectName": "LanguageExt",
+    "projectPath": "/Users/Ingram/Documents/Code/Own/Maniac/LanguageExt/LanguageExt/LanguageExt.csproj",
+    "outputPath": "/Users/Ingram/Documents/Code/Own/Maniac/LanguageExt/LanguageExt/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "LanguageExt.Core": {
+          "target": "Package",
+          "version": "[3.1.24, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.0.0-preview-20181205-02, )"
+        },
+        "Microsoft.NETCore.Platforms": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.0.0-preview3.19128.7, )",
+          "autoReferenced": true
+        },
+        "Microsoft.WindowsDesktop.App": {
+          "include": "None",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.0.0-preview3-27504-2, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
